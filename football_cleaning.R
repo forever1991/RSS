@@ -21,3 +21,5 @@ data2014=rbind(data2014,football_gen(dsn))
 }
 difference=as.numeric(data2014$Home_points)-as.numeric(data2014$Away_points)
 lmodel=lm(difference~data2014$HomeTeam_name+data2014$AwayTeam_name)
+
+wang ba fff
